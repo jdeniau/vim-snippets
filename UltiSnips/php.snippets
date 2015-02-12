@@ -10,7 +10,7 @@ endsnippet
 snippet def "def"
 define('${1}'${2});${3}
 endsnippet
-
+s
 snippet do "do"
 do {
 	${2:// code... }
@@ -266,7 +266,7 @@ namespace ${1:`!p
 abspath = os.path.abspath(path)
 m = re.search(r'[A-Z].+(?=/)', abspath)
 if m:
-›   snip.rv = m.group().replace('/', '\\')
+	snip.rv = m.group().replace('/', '\\')
 `};
 endsnippet
 
@@ -277,7 +277,7 @@ namespace ${1:`!p
 abspath = os.path.abspath(path)
 m = re.search(r'[A-Z].+(?=/)', abspath)
 if m:
-›   snip.rv = m.group().replace('/', '\\')
+	snip.rv = m.group().replace('/', '\\')
 `};
 
 /**
@@ -297,7 +297,7 @@ namespace ${1:`!p
 abspath = os.path.abspath(path)
 m = re.search(r'[A-Z].+(?=/)', abspath)
 if m:
-›   snip.rv = m.group().replace('/', '\\')
+	snip.rv = m.group().replace('/', '\\')
 `};
 
 /**
